@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文实验结果可视化"
+  short_description: "以共享坐标融合效应、置信区间和机制证据的紧凑论文实验可视化"
+  default_prompt: "使用 $paper-experiment-visualization，根据我的数据与认可成品重构实验图，提供图件和可复现绘图代码。"
+policy:
+  allow_implicit_invocation: true

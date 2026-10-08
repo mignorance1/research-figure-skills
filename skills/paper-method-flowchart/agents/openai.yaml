@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文方法流程图"
+  short_description: "用科学对象、清晰功能分区和实心箭头制作可编辑论文方法框架图"
+  default_prompt: "使用 $paper-method-flowchart，按照认可成品的标准绘制我的方法流程图，提供可编辑 PPT、PDF 与预览。"
+policy:
+  allow_implicit_invocation: true

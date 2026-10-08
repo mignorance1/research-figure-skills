@@ -1,0 +1,50 @@
+{
+  "illustrative": true,
+  "not_research_results": true,
+  "membership": [
+    [
+      0.92,
+      0.06,
+      0.02
+    ],
+    [
+      0.12,
+      0.83,
+      0.05
+    ],
+    [
+      0.75,
+      0.2,
+      0.05
+    ],
+    [
+      0.04,
+      0.11,
+      0.85
+    ],
+    [
+      0.07,
+      0.09,
+      0.84
+    ]
+  ],
+  "decision_trace": [
+    0.16,
+    0.5,
+    0.76,
+    0.79,
+    0.78
+  ],
+  "layout": "Four modules with three functional regions; this count is example-specific",
+  "palette": {
+    "blue": "0F4D92",
+    "teal": "42949E",
+    "green": "5D9F62",
+    "violet": "9A4D8E",
+    "orange": "C88931",
+    "ink": "252525",
+    "line": "B7B7B7",
+    "pale": "F1F3F5"
+  },
+  "generator": "build_method_demo.cjs"
+}

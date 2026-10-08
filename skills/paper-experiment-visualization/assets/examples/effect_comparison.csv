@@ -1,0 +1,13 @@
+dataset,comparator,delta,ci_low,ci_high,comparator_mean,is_control
+Core,Comparator A,0.145,0.108,0.181,0.52,False
+Shifted,Comparator A,0.066,0.024,0.108,0.584,False
+Core,Comparator B,0.112,0.082,0.142,0.553,False
+Shifted,Comparator B,0.089,0.051,0.127,0.561,False
+Core,Comparator C,0.103,0.062,0.144,0.562,False
+Shifted,Comparator C,0.075,0.041,0.109,0.575,False
+Core,Comparator D,0.088,0.047,0.129,0.577,False
+Shifted,Comparator D,0.103,0.064,0.142,0.547,False
+Core,Comparator E,0.067,0.022,0.112,0.598,False
+Shifted,Comparator E,-0.018,-0.055,0.019,0.668,False
+Core,Fixed control,0.006,-0.011,0.023,0.659,True
+Shifted,Fixed control,0.01,-0.013,0.033,0.64,True

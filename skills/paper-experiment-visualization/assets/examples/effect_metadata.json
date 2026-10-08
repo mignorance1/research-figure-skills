@@ -1,0 +1,14 @@
+{
+  "title": "Paired effects and absolute quality in one view",
+  "effect_label": "Focal method − comparator normalized score",
+  "absolute_label": "Comparator mean",
+  "interval_label": "Whiskers: supplied illustrative intervals; gray: fixed control.",
+  "source_note": "Synthetic statistics for layout demonstration; no inference or study conclusions.",
+  "protocol_note": "Two regimes · all comparators retained",
+  "dataset_labels": {
+    "Core": "Core",
+    "Shifted": "Shifted"
+  },
+  "illustrative": true,
+  "interval_method": "Supplied artificial endpoints; not estimated from observations."
+}

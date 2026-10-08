@@ -1,0 +1,11 @@
+.build/
+output/
+node_modules/
+__pycache__/
+*.pyc
+*.zip
+# Author's manuscript assets stay in the local installation, not the public repository.
+skills/paper-method-flowchart/assets/approved-reference.*
+skills/paper-method-flowchart/assets/LOCAL_REFERENCES.json
+skills/paper-experiment-visualization/assets/approved/
+skills/paper-experiment-visualization/assets/LOCAL_REFERENCES.json

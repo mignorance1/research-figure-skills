@@ -1,0 +1,19 @@
+{
+    "exports":  [
+                    {
+                        "sha256":  "6e60b8dc04d7caeac7de27f1f1aa4f9d817294eff59346ec4ecdb804fb07f1d4",
+                        "file":  "slide-1.png"
+                    },
+                    {
+                        "sha256":  "7c68ac82289ddd77a6f1aa2d68d4bc9f7b3f2534d81d2a7ff35496fc36f0358e",
+                        "file":  "figure.pdf"
+                    }
+                ],
+    "source":  "method-demo.pptx",
+    "renderer":  "Microsoft PowerPoint",
+    "width_pt":  960,
+    "source_sha256":  "a06ea599c938160e3d78de06957479b14cb3d36e8fa3de6fcc7e0865d19f3c32",
+    "slides":  1,
+    "visual_review_required":  true,
+    "height_pt":  540
+}

@@ -1,0 +1,8 @@
+{
+  "name": "research-figure-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reusable scientific method schematics and dense evidence figures",
+  "license": "MIT",
+  "dependencies": {"pptxgenjs": "4.0.1"}
+}
