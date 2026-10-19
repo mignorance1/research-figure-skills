@@ -1,50 +1,733 @@
 {
   "illustrative": true,
   "not_research_results": true,
-  "membership": [
-    [
-      0.92,
-      0.06,
-      0.02
-    ],
-    [
-      0.12,
-      0.83,
-      0.05
-    ],
-    [
-      0.75,
-      0.2,
-      0.05
-    ],
-    [
-      0.04,
-      0.11,
-      0.85
-    ],
-    [
-      0.07,
-      0.09,
-      0.84
-    ]
+  "layout": "Clockwise functional regions; aligned dual inputs, centered model, aligned returns; count is example-specific",
+  "canvas": [
+    1280,
+    800
   ],
-  "decision_trace": [
-    0.16,
-    0.5,
-    0.76,
-    0.79,
-    0.78
-  ],
-  "layout": "Four modules with three functional regions; this count is example-specific",
   "palette": {
+    "ink": "242B32",
     "blue": "0F4D92",
     "teal": "42949E",
-    "green": "5D9F62",
-    "violet": "9A4D8E",
+    "purple": "9A4D8E",
     "orange": "C88931",
-    "ink": "252525",
-    "line": "B7B7B7",
-    "pale": "F1F3F5"
+    "green": "5D9F62",
+    "gray": "B8C0C8",
+    "navy": "284F68"
   },
-  "generator": "build_method_demo.cjs"
+  "membership": [
+    [
+      0.72,
+      0.23,
+      0.05
+    ],
+    [
+      0.18,
+      0.73,
+      0.09
+    ],
+    [
+      0.06,
+      0.17,
+      0.77
+    ]
+  ],
+  "candidate_scores": [
+    0.37,
+    0.62,
+    0.86,
+    0.45
+  ],
+  "curved_paths": [
+    {
+      "name": "panel1__input_to_model",
+      "segments": [
+        [
+          [
+            157,
+            230
+          ],
+          [
+            157,
+            251
+          ],
+          [
+            183,
+            250
+          ],
+          [
+            183,
+            275
+          ]
+        ]
+      ],
+      "width": 5.3,
+      "head": true,
+      "head_width": 16,
+      "head_length": 11
+    },
+    {
+      "name": "panel1__candidate_to_model",
+      "segments": [
+        [
+          [
+            329,
+            247
+          ],
+          [
+            329,
+            257
+          ],
+          [
+            310,
+            256
+          ],
+          [
+            310,
+            275
+          ]
+        ]
+      ],
+      "width": 5.3,
+      "head": true,
+      "head_width": 16,
+      "head_length": 11
+    },
+    {
+      "name": "panel1__model_to_modes",
+      "segments": [
+        [
+          [
+            335,
+            354
+          ],
+          [
+            363,
+            354
+          ],
+          [
+            375,
+            370
+          ],
+          [
+            375,
+            393
+          ]
+        ]
+      ],
+      "width": 6,
+      "head": true,
+      "head_width": 17,
+      "head_length": 12
+    },
+    {
+      "name": "panel2__energy_redistribution",
+      "segments": [
+        [
+          [
+            1113,
+            215
+          ],
+          [
+            1117.5,
+            207
+          ],
+          [
+            1125.24,
+            215
+          ],
+          [
+            1131,
+            215
+          ]
+        ]
+      ],
+      "width": 3.6,
+      "head": true,
+      "head_width": 10,
+      "head_length": 7
+    },
+    {
+      "name": "panel2__factor_0",
+      "segments": [
+        [
+          [
+            617,
+            365
+          ],
+          [
+            625,
+            365
+          ],
+          [
+            629,
+            373
+          ],
+          [
+            629,
+            383
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8
+    },
+    {
+      "name": "panel2__factor_1",
+      "segments": [
+        [
+          [
+            868,
+            365
+          ],
+          [
+            876,
+            365
+          ],
+          [
+            880,
+            373
+          ],
+          [
+            880,
+            383
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8
+    },
+    {
+      "name": "panel2__factor_2",
+      "segments": [
+        [
+          [
+            1119,
+            365
+          ],
+          [
+            1127,
+            365
+          ],
+          [
+            1131,
+            373
+          ],
+          [
+            1131,
+            383
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8
+    },
+    {
+      "name": "panel2__factor_bus",
+      "segments": [
+        [
+          [
+            629,
+            383
+          ],
+          [
+            796.3333333333334,
+            383
+          ],
+          [
+            963.6666666666667,
+            383
+          ],
+          [
+            1131,
+            383
+          ]
+        ]
+      ],
+      "width": 3.8,
+      "head": false,
+      "head_width": 11.399999999999999,
+      "head_length": 7.6
+    },
+    {
+      "name": "panel2__combined_score",
+      "segments": [
+        [
+          [
+            868,
+            383
+          ],
+          [
+            876,
+            383
+          ],
+          [
+            880,
+            391
+          ],
+          [
+            880,
+            402
+          ]
+        ]
+      ],
+      "width": 4.4,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8
+    },
+    {
+      "name": "shared__input_data_branch",
+      "segments": [
+        [
+          [
+            235,
+            104
+          ],
+          [
+            260,
+            73
+          ],
+          [
+            422,
+            65
+          ],
+          [
+            459,
+            85
+          ]
+        ],
+        [
+          [
+            459,
+            85
+          ],
+          [
+            475,
+            94
+          ],
+          [
+            476,
+            104
+          ],
+          [
+            495,
+            104
+          ]
+        ]
+      ],
+      "width": 3.5,
+      "head": false,
+      "head_width": 10.5,
+      "head_length": 7
+    },
+    {
+      "name": "shared__returned_data_branch",
+      "segments": [
+        [
+          [
+            411,
+            438
+          ],
+          [
+            503,
+            438
+          ],
+          [
+            439,
+            104
+          ],
+          [
+            495,
+            104
+          ]
+        ]
+      ],
+      "width": 5,
+      "head": false,
+      "head_width": 15,
+      "head_length": 10
+    },
+    {
+      "name": "shared__data_bus",
+      "segments": [
+        [
+          [
+            495,
+            104
+          ],
+          [
+            707,
+            104
+          ],
+          [
+            919,
+            104
+          ],
+          [
+            1131,
+            104
+          ]
+        ]
+      ],
+      "width": 3.8,
+      "head": false,
+      "head_width": 11.399999999999999,
+      "head_length": 7.6
+    },
+    {
+      "name": "shared__measurement_0",
+      "segments": [
+        [
+          [
+            617,
+            104
+          ],
+          [
+            625,
+            104
+          ],
+          [
+            629,
+            111
+          ],
+          [
+            629,
+            121
+          ]
+        ]
+      ],
+      "width": 4.1,
+      "head": true,
+      "head_width": 11.5,
+      "head_length": 7.5
+    },
+    {
+      "name": "shared__measurement_1",
+      "segments": [
+        [
+          [
+            868,
+            104
+          ],
+          [
+            876,
+            104
+          ],
+          [
+            880,
+            111
+          ],
+          [
+            880,
+            121
+          ]
+        ]
+      ],
+      "width": 4.1,
+      "head": true,
+      "head_width": 11.5,
+      "head_length": 7.5
+    },
+    {
+      "name": "shared__measurement_2",
+      "segments": [
+        [
+          [
+            1119,
+            104
+          ],
+          [
+            1127,
+            104
+          ],
+          [
+            1131,
+            111
+          ],
+          [
+            1131,
+            121
+          ]
+        ]
+      ],
+      "width": 4.1,
+      "head": true,
+      "head_width": 11.5,
+      "head_length": 7.5
+    },
+    {
+      "name": "panel4__to_sum_0",
+      "segments": [
+        [
+          [
+            444,
+            644
+          ],
+          [
+            448,
+            636
+          ],
+          [
+            454.88,
+            644
+          ],
+          [
+            460,
+            644
+          ]
+        ]
+      ],
+      "width": 3.5,
+      "head": true,
+      "head_width": 9.5,
+      "head_length": 6
+    },
+    {
+      "name": "panel4__to_reconstruction_0",
+      "segments": [
+        [
+          [
+            493,
+            644
+          ],
+          [
+            500,
+            634
+          ],
+          [
+            512.04,
+            644
+          ],
+          [
+            521,
+            644
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8.5
+    },
+    {
+      "name": "panel4__to_sum_1",
+      "segments": [
+        [
+          [
+            444,
+            689
+          ],
+          [
+            448,
+            681
+          ],
+          [
+            454.88,
+            689
+          ],
+          [
+            460,
+            689
+          ]
+        ]
+      ],
+      "width": 3.5,
+      "head": true,
+      "head_width": 9.5,
+      "head_length": 6
+    },
+    {
+      "name": "panel4__to_reconstruction_1",
+      "segments": [
+        [
+          [
+            493,
+            689
+          ],
+          [
+            500,
+            679
+          ],
+          [
+            512.04,
+            689
+          ],
+          [
+            521,
+            689
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8.5
+    },
+    {
+      "name": "panel4__to_sum_2",
+      "segments": [
+        [
+          [
+            444,
+            734
+          ],
+          [
+            448,
+            726
+          ],
+          [
+            454.88,
+            734
+          ],
+          [
+            460,
+            734
+          ]
+        ]
+      ],
+      "width": 3.5,
+      "head": true,
+      "head_width": 9.5,
+      "head_length": 6
+    },
+    {
+      "name": "panel4__to_reconstruction_2",
+      "segments": [
+        [
+          [
+            493,
+            734
+          ],
+          [
+            500,
+            724
+          ],
+          [
+            512.04,
+            734
+          ],
+          [
+            521,
+            734
+          ]
+        ]
+      ],
+      "width": 4.3,
+      "head": true,
+      "head_width": 12,
+      "head_length": 8.5
+    },
+    {
+      "name": "shared__evaluation_to_selection",
+      "segments": [
+        [
+          [
+            1019,
+            495
+          ],
+          [
+            1027,
+            495
+          ],
+          [
+            1031,
+            502
+          ],
+          [
+            1031,
+            512
+          ]
+        ]
+      ],
+      "width": 4.8,
+      "head": true,
+      "head_width": 13,
+      "head_length": 8
+    },
+    {
+      "name": "shared__selection_to_output",
+      "segments": [
+        [
+          [
+            798,
+            658
+          ],
+          [
+            792.25,
+            645
+          ],
+          [
+            782.36,
+            658
+          ],
+          [
+            775,
+            658
+          ]
+        ]
+      ],
+      "width": 5.2,
+      "head": true,
+      "head_width": 14,
+      "head_length": 10
+    }
+  ],
+  "functional_groups": [
+    {
+      "prefix": "panel1__",
+      "name": "01 Candidate representations",
+      "box": [
+        18,
+        18,
+        454,
+        475
+      ]
+    },
+    {
+      "prefix": "panel2__",
+      "name": "02 Output-quality evaluation",
+      "box": [
+        500,
+        18,
+        762,
+        475
+      ]
+    },
+    {
+      "prefix": "panel3__",
+      "name": "03 Maximum-score selection",
+      "box": [
+        800,
+        515,
+        462,
+        267
+      ]
+    },
+    {
+      "prefix": "panel4__",
+      "name": "04 Selected representation",
+      "box": [
+        18,
+        515,
+        754,
+        267
+      ]
+    }
+  ],
+  "validation": {
+    "slide": 1,
+    "paths": 23,
+    "groups": 4,
+    "source_sha256": "a745cf70e57ad426051ea255c9799f530d757307eaa04768aa7f9884262bf214",
+    "output_sha256": "85668a44495d3b7181bc31caec992fe8b5b2c411945a66a105b5d0cd20227638"
+  },
+  "generator": "build_curved_demo.cjs"
 }

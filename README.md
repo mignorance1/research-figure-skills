@@ -6,7 +6,7 @@
 
 | Skill | 用途 | 核心表现方式 |
 |---|---|---|
-| [paper-method-flowchart](skills/paper-method-flowchart/SKILL.md) | 方法流程图、方法框架图 | 科学对象、分层功能区、彩色虚线外框、清晰实心箭头、少量数据插图 |
+| [paper-method-flowchart](skills/paper-method-flowchart/SKILL.md) | 方法流程图、方法框架图 | 科学对象、三层双输入布局、彩色虚线功能区、黑色实心弯箭头、统一数学标签 |
 | [paper-experiment-visualization](skills/paper-experiment-visualization/SKILL.md) | 实验图、结果可视化 | 共享坐标、效应与区间、对齐数值列、机制和质量—成本融合布局 |
 
 方法图使用 Times New Roman；实验图使用 Arial/Helvetica/DejaVu Sans。两个 skill 的规则与参考分开保存。新任务的科学内容必须以当前作者材料为准。
@@ -15,7 +15,9 @@
 
 ![通用方法框架示例](skills/paper-method-flowchart/assets/demo/method-demo.png)
 
-示例是可编辑的原生 PowerPoint，包含四个模块与内部功能分区。模块数只是此例选择，波形、矩阵和决策轨迹是明确的示意数据，不是通用算法定义。
+示例采用顺时针功能分区。左上模块把两路输入并列在顶部，核心操作居中，返回模态在底部按 ch 对齐；右上模块并列评价，再汇成一个分数。黑色实心弯箭头为可编辑的闭合自由形状，交界处平滑汇合。`ch 1`、`ch 2`、`ch C` 共用字号和基线，变量和上下标按数学层级排版。
+
+可下载 [PPTX](skills/paper-method-flowchart/assets/demo/method-demo.pptx) 与 [PDF](skills/paper-method-flowchart/assets/demo/method-demo.pdf)。四个模块与波形、成员矩阵、评分均用于演示画法，具体方法以作者材料为准。
 
 ### 实验图示例
 
@@ -48,11 +50,19 @@ python skills/paper-experiment-visualization/scripts/render_effect_comparison.py
 
 输出固定画幅的 PDF、SVG、600 dpi PNG 和 JSON，记录数据、字体、物理尺寸、文本边界与来源/导出哈希。换成真实统计时修改 CSV 与 metadata 中的单位、区间含义、标题和来源；脚本不估计新统计。
 
-Node.js 生成原生 PPT 示例：
+安装 Node.js 依赖，并使用 Python 3 生成原生 PPT 示例：
 
 ```sh
 npm install
 node skills/paper-method-flowchart/scripts/build_method_demo.cjs --out output/method-demo.pptx
+```
+
+可用 `--python /path/to/python` 指定 Python。弯箭头助手仅使用 Python 标准库，也可独立为现有 PPTX 添加箭头和功能分组，见 [接口与路径示例](skills/paper-method-flowchart/references/curved-arrows.md)。
+
+检查路径方向、几何输入、功能分组和原文件保留：
+
+```sh
+python skills/paper-method-flowchart/scripts/test_curved_arrows.py -v
 ```
 
 Windows 安装有 PowerPoint 时可原生导出：

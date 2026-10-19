@@ -1,19 +1,26 @@
 {
-    "exports":  [
-                    {
-                        "sha256":  "6e60b8dc04d7caeac7de27f1f1aa4f9d817294eff59346ec4ecdb804fb07f1d4",
-                        "file":  "slide-1.png"
-                    },
-                    {
-                        "sha256":  "7c68ac82289ddd77a6f1aa2d68d4bc9f7b3f2534d81d2a7ff35496fc36f0358e",
-                        "file":  "figure.pdf"
-                    }
-                ],
-    "source":  "method-demo.pptx",
-    "renderer":  "Microsoft PowerPoint",
-    "width_pt":  960,
-    "source_sha256":  "a06ea599c938160e3d78de06957479b14cb3d36e8fa3de6fcc7e0865d19f3c32",
-    "slides":  1,
-    "visual_review_required":  true,
-    "height_pt":  540
+  "renderer": "Microsoft PowerPoint",
+  "visual_review_required": false,
+  "height_pt": 600.0,
+  "source": "method-demo.pptx",
+  "slides": 1,
+  "exports": [
+    {
+      "file": "method-demo.png",
+      "sha256": "14cac36ce5bde2be9b4a0e5ce33781a013cb04fd25995e84fb786ac39c1f0555"
+    },
+    {
+      "file": "method-demo.pdf",
+      "sha256": "e8fe3117af53868728c3da586b603b7df7438b70ed51e58dbc24ae5ba34a59b9"
+    }
+  ],
+  "width_pt": 960.0,
+  "source_sha256": "85668a44495d3b7181bc31caec992fe8b5b2c411945a66a105b5d0cd20227638",
+  "visual_review": {
+    "pdf_whole": true,
+    "curve_junction_and_labels": true,
+    "print_width_mm": 180,
+    "package_integrity": "pass",
+    "layout_findings": 0
+  }
 }
