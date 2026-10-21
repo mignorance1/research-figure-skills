@@ -1,15 +1,16 @@
-# Research Figure Skills · 科研论文图件
+# Research Figure Skills · 科研图件与审稿回复
 
-两套可复用 Agent Skills，来自作者反复审阅、修改后认可的科研图件制作方式。规则包含版块逻辑、科学对象表达、配色、图例、信息密度、证据检查、可编辑源文件及论文图件集成。它们适用于支持 `SKILL.md` 的 Codex/Cursor 等工具。
+三套可复用 Agent Skills，来自作者反复审阅、修改后认可的科研图件和审稿回复工作方式。规则包含版块逻辑、科学对象表达、配色、图例、信息密度、证据组织、可编辑源文件，以及论文与回复同步。它们适用于支持 `SKILL.md` 的 Codex/Cursor 等工具。
 
-## 两个 skill
+## 三个 skill
 
 | Skill | 用途 | 核心表现方式 |
 |---|---|---|
 | [paper-method-flowchart](skills/paper-method-flowchart/SKILL.md) | 方法流程图、方法框架图 | 科学对象、三层双输入布局、彩色虚线功能区、黑色实心弯箭头、统一数学标签 |
 | [paper-experiment-visualization](skills/paper-experiment-visualization/SKILL.md) | 实验图、结果可视化 | 共享坐标、效应与区间、对齐数值列、机制和质量—成本融合布局 |
+| [paper-review-response](skills/paper-review-response/SKILL.md) | 逐条审稿回复、返修信与修订证据 | 尊重而清楚的解释、公式和图表证据、颜色与下划线、最终图件及位置同步 |
 
-方法图使用 Times New Roman；实验图使用 Arial/Helvetica/DejaVu Sans。两个 skill 的规则与参考分开保存。新任务的科学内容必须以当前作者材料为准。
+方法图使用 Times New Roman；实验图使用 Arial/Helvetica/DejaVu Sans；回复沿用作者模板和论文所属领域的写法。三个 skill 的规则与参考分开保存。新任务的科学内容必须以当前作者材料为准。
 
 ### 方法图示例
 
@@ -37,7 +38,15 @@
 
 > 使用 $paper-experiment-visualization，根据这些冻结统计重构实验图，把方法差异、区间和机制信息融合起来。
 
-本地安装可以附加作者自己的认可成品。方法图放 `assets/approved-reference.png` / `.pptx`；实验图放 `assets/approved/`。这些本地参考优先于通用示例。此公开仓库只提供通用规则、示例数据与原创辅助代码，作者论文成品保存在其本地安装。
+> 使用 $paper-review-response，按我的回复模板和最新修订稿，详细回应每条审稿意见，配齐必要的公式、图表和可核对的位置。
+
+本地安装可以附加作者自己的认可成品。方法图放 `assets/approved-reference.png` / `.pptx`；实验图放 `assets/approved/`；回复模板放 `paper-review-response/assets/approved-response-template.docx`。这些本地参考优先于通用示例。此公开仓库只提供通用规则、匿名骨架、示例数据与原创辅助代码，作者论文、回复和私有模板保存在本地安装。
+
+### 审稿回复写法
+
+回复围绕问题、实际修改、证据、解释和最终位置展开。对数学修订解释计算边界与物理含义，结合理论、受控构造、消融或独立结果逐项说明。用作者提供的模板和标记约定；本套默认解释下划线、红色、蓝色、绿色和橙色，并区分审稿意见与作者改写。图件更新和实验删除同步到实际论文与 response，再重新核对页码、行号和表注。
+
+公开包包含 [回复骨架](skills/paper-review-response/assets/response-skeleton.md) 和 Windows Word 只读导出助手，具体用法见 [同步与交付](skills/paper-review-response/references/synchronization.md)。
 
 ## 运行示例
 

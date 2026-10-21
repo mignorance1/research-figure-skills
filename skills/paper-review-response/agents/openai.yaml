@@ -1,0 +1,4 @@
+interface:
+  display_name: "审稿意见逐条回复"
+  short_description: "按作者模板组织尊重、清晰且有证据的逐条回复，并同步论文图表与修改位置"
+  default_prompt: "使用 $paper-review-response，按我的回复模板和最新修订稿撰写逐条审稿回复，配齐必要的公式、图表和可核对的修改位置。"
